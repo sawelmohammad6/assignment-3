@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <title>Hockey Store</title>
+  <title>Hockey Club</title>
 </head>
 
 <body>
@@ -46,65 +46,194 @@
       <div class="navbar-end">
         <i class="fa-solid fa-magnifying-glass mr-[20px] opacity-50 hidden lg:flex"></i>
         <a class="text-white btn class= bg-[#FF4240] hover:bg-sky-700">Get Ticket</a>
-    </div>
       </div>
     </div>
-<br>
-<br>
-<br>
-<br>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <!--Carousal-->
+
+    <div class="container mx-5 my-5">
+      <div class="carousel w-500px ml-7 mt-[55px] lg:h-[550px] rounded-3xl">
+
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+
+          <div
+            class="w-[450px] hidden lg:block p-5 space-y-5 lg:right-[10%] lg:bottom-[10%] absolute h-[150px]  bg-black rounded-xl text-white">
+            <h3 class="text-[20px]">Meet All the Heroes from the Field</h3>
+            <p class="text-[15px] font-[400] text-gray-500">Are you ready to take your hockey team to new heights?
+              Our elite coaching services are tailored to transform your team into champions!</p>
+          </div>
+
+          <div
+            class="absolute flex justify-between transform translate-y-[30px] space-x-4 left-12 top-[60%] lg:left-12 lg:top-[75%]">
+            <a href="#slide4" class="btn btn-circle bg-white text-black border-0">❮</a>
+            <a href="#slide2" class="btn btn-circle bg-black text-white border-0">❯</a>
+          </div>
+        </div>
 
 
-<div class="container mx-5 my-5">
-  <div class="carousel w-full ml-7 mt-[55px] lg:h-[550px] rounded-3xl">
-
-    <div id="slide1" class="carousel-item relative w-full">
-      <img src="Images/1.png" class="w-full" />
-      
-      <div class="w-[500px] hidden lg:block p-5 space-y-5 lg:right-[10%] lg:bottom-[10%] absolute h-[150px]  bg-black rounded-xl text-white">
-      <h3 class="text-[20px]">Meet all the heroes from the field</h3>
-      <p class="text-[15px] font-[400] text-gray-500">Are you ready to take your hockey team to new heights?
-        Our elite coaching services are tailored to transform your team into champions!</p>
-  </div>
-
-  <div class="absolute flex justify-between transform translate-y-[30px] space-x-4 left-12 top-[60%] lg:left-12 lg:top-[77%]">
-  <a href="#slide4" class="btn btn-circle bg-black text-white border-0">❮</a>
-  <a href="#slide2" class="btn btn-circle bg-black text-white border-0">❯</a>
-</div>
-    </div> 
-
-
-    <div id="slide2" class="carousel-item relative w-full">
-      <img src="Images/hocky.png" class="w-full" />
-      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a href="#slide1" class="btn btn-circle">❮</a> 
-        <a href="#slide3" class="btn btn-circle">❯</a>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/hocky.png" class="w-full" />
+          <div
+            class="absolute flex justify-between transform translate-y-[30px] space-x-4 left-12 top-[60%] lg:left-12 lg:top-[75%]">
+            <a href="#slide1" class="btn btn-circle bg-white text-black border-0">❮</a>
+            <a href="#slide3" class="btn btn-circle bg-black text-white border-0">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="Images/woman.jpeg" class="w-full" />
+          <div
+            class="absolute flex justify-between transform translate-y-[30px] space-x-4 left-12 top-[60%] lg:left-12 lg:top-[75%]">
+            <a href="#slide2" class="btn btn-circle bg-white text-black border-0">❮</a>
+            <a href="#slide4" class="btn btn-circle bg-black text-white border-0">❯</a>
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="Images/h-2.jpg" class="w-full" />
+          <div
+            class="absolute flex justify-between transform translate-y-[30px] space-x-4 left-12 top-[60%] lg:left-12 lg:top-[75%]">
+            <a href="#slide3" class="btn btn-circle bg-white text-black border-0">❮</a>
+            <a href="#slide1" class="btn btn-circle bg-black text-white border-0">❯</a>
+          </div>
+        </div>
       </div>
-    </div> 
-    <div id="slide3" class="carousel-item relative w-full">
-      <img src="Images/woman.jpeg" class="w-full" />
-      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a href="#slide2" class="btn btn-circle">❮</a> 
-        <a href="#slide4" class="btn btn-circle">❯</a>
-      </div>
-    </div> 
-    <div id="slide4" class="carousel-item relative w-full">
-      <img src="Images/h-2.jpg" class="w-full" />
-      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a href="#slide3" class="btn btn-circle">❮</a> 
-        <a href="#slide1" class="btn btn-circle">❯</a>
+      <div class="responsive-carousel">
+        <div
+          class="w-[90%] lg:w-[500px] block mt-6 lg:hidden p-6 lg:space-y-5 lg:right-[10%] lg:bottom-[10%] absolute h-[150px] text-white bg-black rounded-xl">
+          <h3 class="text-[20px]">Meet all the Heroes from the Field</h3>
+          <p class="text-[15px] text-gray-500">
+            Are you ready to take your hockey team to new heights?
+            Our elite coaching services are tailored to transform your team into champions!</p>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+
+    <br>
+    <div class="mt-20 lg: mt:hidden">
+      <main>
+        <div class="border-dashed border-black w-full my-7 lg:mt-[100px] my-7"></div>
+        <div class="w-100% lg:w-[600px] text-center mx-auto mt-5 lg:mt-[50px] space-y-5">
+          <h1 class=" mt-10 text-[30px] lg:text-[35px] text-black">Professional Hockey Club</h1>
+          <p class="text-[15px] text-black">
+            Our experienced coaches will design personalized training sessions to address the specific needs and goals
+            of your team.
+            From skill development to strategic gameplay.</p>
+        </div>
+        <div class="border-t border-dotted border-black w-full my-15"></div>
+
+        <div class="grid grid-col-1 lg:grid-cols-4 mt-[100px] space-y-12 lg:space-y-0">
+          <div class="text-center space-y-5">
+            <div class="radial-progress  text-red-500" style="--value: 87" role="progressbar">
+              <span class="text-black">87%</span>
+            </div>
+            <h4 class="text-[20px] text-black">Player Facility</h4>
+            <h6 class="text-[15px]">
+              Our arenas provide the perfect environment for skill development and team building.
+            </h6>
+          </div>
+
+          <div class="text-center space-y-5">
+            <div class="radial-progress text-[#2a6a4c]" style="--value:95" role="progressbar">
+              <span class="text-black">95%</span>
+            </div>
+            <h4 class="text-[20px] font-[600] text-[#04040b]">
+              Experienced Coach
+            </h4>
+            <h6 class="text-[16px] font-[400]">
+              We tailor our coaching programs to meet the specific needs
+            </h6>
+          </div>
+          <div class="text-center space-y-5">
+            <div class="radial-progress text-yellow-500 font-[800]" style="--value: 90" role="progressbar">
+              <span class="text-black">90%</span>
+            </div>
+            <h4 class="text-[20px] font-[600] text-[#131318]">Senior Player</h4>
+            <h6 class="text-[16px] font-[400]">
+              National level senior playes was student here.
+            </h6>
+          </div>
+          <div class="text-center space-y-5">
+            <div class="radial-progress text-[#2c5189] font-[800]" style="--value: 80" role="progressbar">
+              <span class="text-black">80%</span>
+            </div>
+            <h4 class="text-[20px] font-[600] text-[#131318]">Training Ground</h4>
+            <h6 class="text-[16px] font-[400]">Training ground fosters athlete development.</h6>
+          </div>
+        </div>
+    </div>
   </header>
-  <main>
- <!--Carousal-->
 
+<!--Main Part-->
+<main class="w-[95%] lg:w-[1170px] mx-auto">
 
+  <div class="border-dashed border-t  border-black w-full lg:mt-[100px] my-4"></div>
+  <div class="w-100% lg:w-[607px] text-center mx-auto mt-5 lg:mt-[50px] space-y-5">
+      <h1 class="text-[28px] lg:text-[35px] font-[800] text-[#131318]">Program Sections</h1>
+      <p class="text-[15px] text-black">
+        Learn the ins and outs of tactical play, positioning, and game strategy. 
+        Gain a competitive edge with in-depth knowledge shared by our seasoned coaching team.</p>
+  </div>
 
+  <div class="border-t border-dashed border-black w-full my-15"></div>
+  <div class="flex flex-col lg:flex-row justify-between">
+    <div class="hero h-full w-[100%] lg:h-[335px] lg:w-[570px] rounded-2xl"
+        style="background-image: url(./Images/4.png)">
+        <div class="hero-overlay bg-opacity-50 rounded-2xl"></div>
+        <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+                <h1 class="mb-5 text-4xl font-bold lg:text-left">Junior Program</h1>
+                <p class="mb-5 lg:text-left">
+                  Join the exciting world of hockey with Junior Program. Our program is 
+                  specially crafted to introduce kids to the joys of the 
+                  sport while focusing on skill development, teamwork, and fostering a love for the game.
+                </p>
+                <button class="btn lg:-ml-[330px] bg-[#d9413f] text-white border-0">Register Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="hero h-full w-[100%] mt-[20px] lg:mt-0 lg:h-[335px] lg:w-[570px] rounded-2xl"
+        style="background-image: url(./Images/2.png)">
+        <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
+        <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+                <h1 class="mb-5 text-4xl font-bold lg:text-left">Teenager Program</h1>
+                <p class="mb-5 lg:text-left">
+                  Calling all teenage hockey enthusiasts! Elevate your game with our exclusive 
+                  Teen Hockey Program at Hockey Club.</p>
+                <button class="btn lg:-ml-[330px] bg-[#a12e2d] text-white border-0">Register Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="hero w-full h-[450px] mt-10 rounded-2xl" style="background-image: url(./Images/3.png)">
+  <div class="hero-overlay rounded-2xl bg-opacity-60 "></div>
+  <div class="">
+      <div class="hero-content text-neutral-content text-center ">
+          <div class="max-w-md lg:absolute lg:left-[15%] lg:mt-[100px]">
+              <h1 class="mb-5 text-4xl font-bold lg:text-left">Professional Program</h1>
+              <p class="mb-5 lg:text-left">
+                Elevate your hockey game to the professional level with Hockey Club
+                exclusive Professional Development Program.</p>
+              <button class="btn lg:-ml-[330px] bg-[#c93b38] text-white border-0">Register Now</button>
+          </div>
+      </div>
+  </div>
+</div>
 
+ <!--Products section-->
 
+ <div class="border-dotted border-t  border-black w-full mt-[80px] lg:mt-[100px] my-4"></div>
+ <div class="w-100% lg:w-[607px] text-center mx-auto mt-5 lg:mt-[50px] space-y-5">
+     <h1 class="text-[28px] lg:text-[36px] text-[#060607]">Our New Products</h1>
+     <p class="text-[16px] font-[500] text-[#00000099]">
+Within our product lineup, the spotlight is on sports, presenting a varied selection of top-notch equipment, clothing, and 
+accessories.Enhance your performance using our cutting-edge products crafted for both enthusiasts and athletes.</p>
+ </div>
+ <div class="border-dashed border-t  border-black w-full my-16"></div>
   </main>
 </body>
 
